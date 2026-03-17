@@ -1,133 +1,156 @@
 # WinMaintenanceTool
 
-**WinMaintenanceTool** is a free Windows support tool that helps you run diagnostic and repair commands from a simple GUI.  
-It is designed for practical maintenance work, from quick daily checks to saving logs and creating repair reports.
+<p align="center">
+  <b>Safe GUI support tool for Windows diagnostic and repair commands</b><br>
+  <b>Windows の診断・修復コマンドを GUI から安全に実行する支援ツール</b>
+</p>
 
-**WinMaintenanceTool** は、Windows の診断・修復コマンドを GUI から実行できるフリーソフトです。  
-日常点検から保守作業の記録まで、実務で使いやすい構成を目指しています。
-
----
-
-## Overview / 概要
-
-WinMaintenanceTool provides a simple interface for running common Windows maintenance commands such as **SFC**, **DISM**, and **CHKDSK**.  
-It also supports log saving, HTML report export, system information display, and execution history management.
-
-WinMaintenanceTool では、**SFC**、**DISM**、**CHKDSK** などの Windows 標準メンテナンスコマンドを、わかりやすい画面から実行できます。  
-さらに、ログ保存、HTML レポート出力、システム情報表示、実行履歴の確認にも対応しています。
+<p align="center">
+  <a href="../../releases">Download / ダウンロード</a>
+</p>
 
 ---
 
-## Main Features / 主な機能
+## English
 
-- Run **SFC / DISM / CHKDSK** from a GUI  
-  **SFC / DISM / CHKDSK** を GUI から実行可能
+**WinMaintenanceTool** is a free utility for Windows that helps you run built-in maintenance commands such as **SFC**, **DISM**, and **CHKDSK** from a simple GUI.
 
-- Preset-based execution for common maintenance tasks  
-  よく使う保守作業をプリセットから実行可能
+It is designed for practical day-to-day use, from quick health checks to maintenance logs and HTML repair reports.
 
-- Save execution logs as text files  
-  実行ログをテキストファイルとして保存
+### Highlights
 
-- Export repair results as **HTML reports**  
-  修復結果を **HTML レポート** として出力
+- Run **SFC / DISM / CHKDSK** from a GUI
+- Preset-based operation for common maintenance tasks
+- Save execution logs as text files
+- Export results as **HTML repair reports**
+- View system information inside the app
+- Check past execution history
+- Free software for Windows users
 
-- View system information inside the app  
-  アプリ内でシステム情報を確認可能
+### Typical Use Cases
 
-- Check past execution history  
-  過去の実行履歴を確認可能
+- Quick system health checks
+- Guided execution of repair commands
+- Saving maintenance records
+- Creating HTML reports for review or sharing
+- Supporting routine maintenance work
 
-- Designed as a **free software** tool for Windows users  
-  Windows ユーザー向けの **フリーソフト** として公開
+---
+
+## 日本語
+
+**WinMaintenanceTool** は、**SFC**、**DISM**、**CHKDSK** などの Windows 標準コマンドを、わかりやすい GUI から実行できるフリーソフトです。
+
+日常点検、状態確認、修復作業、ログ保存、HTML レポート出力までを、1つの画面で扱いやすく整理しています。
+
+### 特長
+
+- **SFC / DISM / CHKDSK** を GUI から実行可能
+- よく使う保守作業をプリセットから実行可能
+- 実行ログをテキストで保存
+- 結果を **HTML 修復レポート** として出力
+- システム情報をアプリ内で確認可能
+- 実行履歴を一覧で確認可能
+- Windows 向け **フリーソフト** として公開
+
+### 主な用途
+
+- Windows の状態をすばやく確認したいとき
+- 修復コマンドを整理して実行したいとき
+- 保守作業のログを残したいとき
+- HTML レポートを保存・共有したいとき
+- 日常点検や定期保守の支援
 
 ---
 
 ## Screenshots / スクリーンショット
 
-### Home / ホーム
-![Home](docs/images/winmete_1.png)
+<table>
+  <tr>
+    <td align="center"><b>Home / ホーム</b></td>
+    <td align="center"><b>System Repair / システム修復</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/winmete_1.png" alt="WinMaintenanceTool Home" width="100%"></td>
+    <td><img src="docs/images/winmete_2.png" alt="WinMaintenanceTool System Repair" width="100%"></td>
+  </tr>
 
-### System Repair / システム修復
-![System Repair](docs/images/winmete_2.png)
+  <tr>
+    <td align="center"><b>DISM</b></td>
+    <td align="center"><b>Disk / ディスク</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/winmete_3.png" alt="WinMaintenanceTool DISM" width="100%"></td>
+    <td><img src="docs/images/winmete_4.png" alt="WinMaintenanceTool Disk" width="100%"></td>
+  </tr>
 
-### DISM
-![DISM](docs/images/winmete_3.png)
-
-### Disk / ディスク
-![Disk](docs/images/winmete_4.png)
-
-### Information / 情報取得
-![Information](docs/images/winmete_5.png)
-
-### History / 実行履歴
-![History](docs/images/winmete_6.png)
+  <tr>
+    <td align="center"><b>Information / 情報取得</b></td>
+    <td align="center"><b>History / 実行履歴</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/winmete_5.png" alt="WinMaintenanceTool Information" width="100%"></td>
+    <td><img src="docs/images/winmete_6.png" alt="WinMaintenanceTool History" width="100%"></td>
+  </tr>
+</table>
 
 ### HTML Repair Report / HTML修復レポート
-![HTML Repair Report](docs/images/winmete_7.png)
+
+<p align="center">
+  <img src="docs/images/winmete_7.png" alt="WinMaintenanceTool HTML Repair Report" width="75%">
+</p>
+
+---
+
+## Features / 機能一覧
+
+| Feature | English | 日本語 |
+|---|---|---|
+| GUI execution | Run Windows maintenance commands from a simple GUI | Windows 標準メンテナンスコマンドを GUI から実行 |
+| Presets | Start common checks and repairs quickly | よく使う点検・修復をすばやく開始 |
+| Log saving | Save execution logs as text files | 実行ログをテキストで保存 |
+| HTML reports | Export results as HTML reports | 実行結果を HTML レポートとして出力 |
+| System info | View system information in the app | システム情報をアプリ内で確認 |
+| History | Review previous operations | 過去の実行履歴を確認 |
 
 ---
 
 ## Download / ダウンロード
 
-Please download the latest version from the **Releases** page.
-
+Please download the latest version from the **Releases** page.  
 最新版は **Releases** ページからダウンロードしてください。
 
-[Releases](../../releases)
-
----
-
-## Typical Use Cases / 主な用途
-
-- Quick health checks for Windows systems  
-  Windows の状態確認をすばやく行いたいとき
-
-- Guided execution of repair commands  
-  修復コマンドを GUI から整理して実行したいとき
-
-- Saving maintenance logs for later review  
-  保守作業のログを保存しておきたいとき
-
-- Creating HTML reports for records or sharing  
-  記録や共有用に HTML レポートを残したいとき
-
-- Supporting routine maintenance work  
-  日常点検や定期保守の支援
+**[Go to Releases / Releases へ](../../releases)**
 
 ---
 
 ## Notes / 注意事項
 
-- Some commands may require **administrator privileges**.  
+- Some commands require **administrator privileges**.  
   一部のコマンドは **管理者権限** が必要です。
 
-- Commands such as CHKDSK may require a restart depending on the target drive and options.  
-  CHKDSK などは、対象ドライブやオプションによって再起動が必要になる場合があります。
+- Depending on the target drive and options, a restart may be required.  
+  対象ドライブやオプションによっては再起動が必要になる場合があります。
 
-- Please review the displayed warnings before running any operation.  
-  実行前に表示される注意事項を確認してから使用してください。
+- Please review warnings before executing repair operations.  
+  修復操作を実行する前に、表示される注意事項を確認してください。
 
 ---
 
-## Target Environment / 対応環境
+## Environment / 対応環境
 
-- Windows
+- Windows 10 / 11
 
 ---
 
 ## License / ライセンス
 
-This project is released as free software.  
-Please check the repository files for detailed license information if a license file is included.
-
-本ソフトはフリーソフトとして公開しています。  
-詳細なライセンス情報は、ライセンスファイルを同梱する場合はそちらを確認してください。
+This project is distributed as free software.  
+本ソフトはフリーソフトとして公開しています。
 
 ---
 
-## Contact / お問い合わせ
+## Feedback / フィードバック
 
-For feedback, bug reports, or suggestions, please use GitHub Issues or contact us through our website.
-
-不具合報告やご意見は、GitHub Issues または当社ウェブサイトからお知らせください。
+Bug reports, feedback, and suggestions are welcome.  
+不具合報告、ご意見、ご要望を歓迎します。
