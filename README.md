@@ -1,38 +1,45 @@
 # WinMaintenanceTool
 
 <p align="center">
-  <b>Safe GUI support tool for Windows diagnostic and repair commands</b><br>
-  <b>Windows の診断・修復コマンドを GUI から安全に実行する支援ツール</b>
+  <b>Windows maintenance, repair, and reporting in one simple GUI.</b><br>
+  <b>Windows の点検・修復・記録を、ひとつの画面で扱いやすく。</b>
 </p>
 
 <p align="center">
-  <a href="../../releases">Download / ダウンロード</a>
+  WinMaintenanceTool is a free support tool for running Windows diagnostic and repair commands safely from a GUI.<br>
+  WinMaintenanceTool は、Windows の診断・修復コマンドを GUI から安全に実行するためのフリーソフトです。
+</p>
+
+<p align="center">
+  <a href="../../releases"><img alt="Download Releases" src="https://img.shields.io/badge/Download-Releases-2ea44f?style=for-the-badge"></a>
+  <a href="http://www.lwj.co.jp/pc/software/index.html"><img alt="Official Website" src="https://img.shields.io/badge/Website-LWJ%20PC%20Solutions-0a66c2?style=for-the-badge"></a>
+  <a href="#license--ライセンス"><img alt="License" src="https://img.shields.io/badge/License-Free%20Software-6f42c1?style=for-the-badge"></a>
 </p>
 
 ---
 
 ## English
 
-**WinMaintenanceTool** is a free utility for Windows that helps you run built-in maintenance commands such as **SFC**, **DISM**, and **CHKDSK** from a simple GUI.
+**WinMaintenanceTool** is a free Windows utility that helps you run built-in maintenance commands such as **SFC**, **DISM**, and **CHKDSK** from a simple GUI.
 
 It is designed for practical day-to-day use, from quick health checks to maintenance logs and HTML repair reports.
 
 ### Highlights
 
 - Run **SFC / DISM / CHKDSK** from a GUI
-- Preset-based operation for common maintenance tasks
+- Start common maintenance tasks with preset-based operation
 - Save execution logs as text files
 - Export results as **HTML repair reports**
 - View system information inside the app
-- Check past execution history
+- Review past execution history
 - Free software for Windows users
 
 ### Typical Use Cases
 
-- Quick system health checks
+- Quick Windows health checks
 - Guided execution of repair commands
-- Saving maintenance records
-- Creating HTML reports for review or sharing
+- Saving maintenance logs for future review
+- Creating HTML reports for records or sharing
 - Supporting routine maintenance work
 
 ---
@@ -46,7 +53,7 @@ It is designed for practical day-to-day use, from quick health checks to mainten
 ### 特長
 
 - **SFC / DISM / CHKDSK** を GUI から実行可能
-- よく使う保守作業をプリセットから実行可能
+- よく使う保守作業をプリセットから開始可能
 - 実行ログをテキストで保存
 - 結果を **HTML 修復レポート** として出力
 - システム情報をアプリ内で確認可能
@@ -63,6 +70,19 @@ It is designed for practical day-to-day use, from quick health checks to mainten
 
 ---
 
+## Quick Links / クイックリンク
+
+- **Download / ダウンロード**  
+  [Go to Releases](../../releases)
+
+- **Official Website / 公式ページ**  
+  [LWJ PC Solutions - WinMaintenanceTool](http://www.lwj.co.jp/pc/software/index.html)
+
+- **License / ライセンス**  
+  See the [License section](#license--ライセンス) below.
+
+---
+
 ## Screenshots / スクリーンショット
 
 <table>
@@ -71,8 +91,8 @@ It is designed for practical day-to-day use, from quick health checks to mainten
     <td align="center"><b>System Repair / システム修復</b></td>
   </tr>
   <tr>
-    <td><img src="docs/images/winmete_1.png" alt="WinMaintenanceTool Home" width="100%"></td>
-    <td><img src="docs/images/winmete_2.png" alt="WinMaintenanceTool System Repair" width="100%"></td>
+    <td><img src="doc/images/winmete_1.png" alt="WinMaintenanceTool Home" width="100%"></td>
+    <td><img src="doc/images/winmete_2.png" alt="WinMaintenanceTool System Repair" width="100%"></td>
   </tr>
 
   <tr>
@@ -80,8 +100,8 @@ It is designed for practical day-to-day use, from quick health checks to mainten
     <td align="center"><b>Disk / ディスク</b></td>
   </tr>
   <tr>
-    <td><img src="docs/images/winmete_3.png" alt="WinMaintenanceTool DISM" width="100%"></td>
-    <td><img src="docs/images/winmete_4.png" alt="WinMaintenanceTool Disk" width="100%"></td>
+    <td><img src="doc/images/winmete_3.png" alt="WinMaintenanceTool DISM" width="100%"></td>
+    <td><img src="doc/images/winmete_4.png" alt="WinMaintenanceTool Disk" width="100%"></td>
   </tr>
 
   <tr>
@@ -89,15 +109,15 @@ It is designed for practical day-to-day use, from quick health checks to mainten
     <td align="center"><b>History / 実行履歴</b></td>
   </tr>
   <tr>
-    <td><img src="docs/images/winmete_5.png" alt="WinMaintenanceTool Information" width="100%"></td>
-    <td><img src="docs/images/winmete_6.png" alt="WinMaintenanceTool History" width="100%"></td>
+    <td><img src="doc/images/winmete_5.png" alt="WinMaintenanceTool Information" width="100%"></td>
+    <td><img src="doc/images/winmete_6.png" alt="WinMaintenanceTool History" width="100%"></td>
   </tr>
 </table>
 
 ### HTML Repair Report / HTML修復レポート
 
 <p align="center">
-  <img src="docs/images/winmete_7.png" alt="WinMaintenanceTool HTML Repair Report" width="75%">
+  <img src="doc/images/winmete_7.png" alt="WinMaintenanceTool HTML Repair Report" width="78%">
 </p>
 
 ---
@@ -120,7 +140,16 @@ It is designed for practical day-to-day use, from quick health checks to mainten
 Please download the latest version from the **Releases** page.  
 最新版は **Releases** ページからダウンロードしてください。
 
-**[Go to Releases / Releases へ](../../releases)**
+**[Download from Releases / Releases からダウンロード](../../releases)**
+
+---
+
+## Website / 公式ページ
+
+The product page is also available on our company website.  
+製品ページは当社ウェブサイトにも掲載しています。
+
+**[LWJ PC Solutions - WinMaintenanceTool](http://www.lwj.co.jp/pc/software/index.html)**
 
 ---
 
@@ -132,7 +161,7 @@ Please download the latest version from the **Releases** page.
 - Depending on the target drive and options, a restart may be required.  
   対象ドライブやオプションによっては再起動が必要になる場合があります。
 
-- Please review warnings before executing repair operations.  
+- Please review the warnings before executing repair operations.  
   修復操作を実行する前に、表示される注意事項を確認してください。
 
 ---
@@ -145,8 +174,11 @@ Please download the latest version from the **Releases** page.
 
 ## License / ライセンス
 
-This project is distributed as free software.  
-本ソフトはフリーソフトとして公開しています。
+This project is distributed as **free software**.  
+本ソフトは **フリーソフト** として公開しています。
+
+If you include a license file in this repository, please refer to it for detailed terms.  
+詳細な条件を記載したライセンスファイルを同梱する場合は、そちらを参照してください。
 
 ---
 
